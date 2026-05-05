@@ -8,7 +8,7 @@ import pandas as pd
 import os
 
 # ── 配置API Key ──
-DEEPSEEK_API_KEY = "xxxxx"
+DEEPSEEK_API_KEY = "你的DeepSeek_API_KEY粘贴到这里"
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
     base_url="https://api.deepseek.com"
